@@ -11,3 +11,4 @@ aiohttp
 asyncio
 pytz
 psutil==5.9.4
+setuptools
