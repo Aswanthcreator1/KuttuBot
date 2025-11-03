@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20447284'))
 API_HASH = environ.get('API_HASH', 'b215f8e05089c399ed89170544621a70')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8452438315:AAHMiNxDDFbmrb86Q9z5LCcpu4GApdwk-9w')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8239747249:AAHuDmn0wIykgX1tE8QCYX7WtRM5dUCc-T8')
 
 # Restart interval for auto-restart: use 'd' for days, 'h' for hours, 'm' for minutes
 # Examples !!! :
@@ -29,9 +29,9 @@ RESTART_INTERVAL = environ.get("RESTART_INTERVAL", "3d")
 BOT_START_TIME = time()
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/8619a6f258621134b7576.jpg https://telegra.ph/file/d8daf35960bbb4a7f8558.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/bebadba5a5efdd897afcf-116ed9d0ed07d77c11.jpg https://graph.org/file/f78ca1ac088ad82d9603e-7f61a77f0718fee647.jpg https://graph.org/file/9c20b70bbf7748b4d2bf5-42c4e8dfc41c4b6bce.jpg https://graph.org/file/a0ab8208f845ac067c0b9-16eba84b3f621e06ee.jpg https://graph.org/file/f34fff613f8fcb33db595-51159118500f9923eb.jpg https://graph.org/file/60ce90d7d1eb00c930a17-e2f805f58317b45ee6.jpg https://graph.org/file/66ba07e9fa854e789d430-42ce22f5c7367625e0.jpg https://graph.org/file/10ae47fa931d44dd94ba9-7d98b966b2f66db3f3.jpg https://graph.org/file/a4867d33f15e97c58f74b-0d00faecdcf915fdc4.jpg https://graph.org/file/d2bd13fc11c58df90b6a2-4a46bc6551f5bae65f.jpg https://graph.org/file/9fa57d5b5605ae0ed27f2-22ce1247e9463a5643.jpg')).split()
 
-FILE_CHANNELS = [int(ch) for ch in environ.get('FILE_CHANNELS', '-1002831639976 -1002607076908 -1002869981026').split()]
+FILE_CHANNELS = [int(ch) for ch in environ.get('FILE_CHANNELS', '-1003167820589').split()]
 FILE_CHANNEL_SENDING_MODE = is_enabled(environ.get('FILE_CHANNEL_SENDING_MODE', 'False'), False)
 FILE_AUTO_DELETE_SECONDS = int(environ.get('FILE_AUTO_DELETE_SECONDS', 3600))  # Default: 1 hour
 #request fsub
@@ -39,11 +39,11 @@ REQUEST_FSUB_MODE = bool(environ.get('REQUEST_FSUB_MODE', True))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1892771262').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002490892111 -1002097504396').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003167820589').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
-DEFAULT_AUTH_CHANNELS = [int(x) for x in environ.get("AUTH_CHANNEL", "").split() if x.lstrip('-').isdigit()]
+DEFAULT_AUTH_CHANNELS = [int(x) for x in environ.get("AUTH_CHANNEL", "-1001681286512").split() if x.lstrip('-').isdigit()]
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
