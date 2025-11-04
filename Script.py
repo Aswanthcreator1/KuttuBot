@@ -1,13 +1,7 @@
 class script(object):
-    START_TXT = """<blockquote>👋🏻 Hᴇʟʟᴏ {}.</blockquote>
-𝖨’𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗍𝗁𝖺𝗍 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗍𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝗀𝗋𝗈𝗎𝗉𝗌.
-
-➕ 𝖠𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉  
-🛡️ 𝖯𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝗇 𝖠𝖽𝗆𝗂𝗇
-
-🚀 𝖠𝗇𝖽 𝗂’𝗅𝗅 𝗍𝖺𝗄𝖾 𝗂𝗍 𝖿𝗋𝗈𝗆 𝗍𝗁𝖾𝗋𝖾!
-
-<blockquote>©️ Maintained by <a href="https://t.me/im_goutham_josh">@im_goutham_josh</a></blockquote>"""
+    START_TXT = """<b><blockquote>👋🏻 Hᴇʟʟᴏ {}.</blockquote>
+ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ.
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!!</b>"""
 
     HELP_TXT = """
 🙋🏻‍♂️ Hᴇʟʟᴏ {}! 🤓
@@ -27,23 +21,17 @@ class script(object):
 ⚠️ Pʟᴇᴀsᴇ ᴅᴏɴ’ᴛ sᴘᴀᴍ ᴛʜᴇ ʙᴏᴛ. 🙂
 """
     ABOUT_TXT = """<b>
-➸ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Dileep_Autofilterbot">Vᴀʟᴀʏᴀʀ Pᴀʀᴀᴍᴀsɪᴠᴀᴍ</a>
-➻ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href="tg://settings">ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-➸ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/Ascreator_10">ᗩՏᗯᗩᑎTᕼ ♛</a> 
-➻ ʟɪʙʀᴀʀʏ : <a href="https://docs.pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a> 
-➸ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/download/releases/3.0/">ᴘʏᴛʜᴏɴ 3</a> 
-➻ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a> 
-➸ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href="https://heroku.com">ʜᴇʀᴏᴋᴜ</a> 
-➻ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]>
+➣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Dileep_Autofilterbot">ᴠᴀʟᴀʏᴀʀ ᴘᴀʀᴀᴍᴀsɪᴠᴀᴍ</a>
+➣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href="tg://settings">ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+➣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/Ascreator_10">ᴀsᴡᴀɴᴛʜ ♛</a> 
+➣ ʟɪʙʀᴀʀʏ : <a href="https://docs.pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a> 
+➣ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/download/releases/3.0/">ᴘʏᴛʜᴏɴ 3</a> 
+➣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a> 
+➣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href="https://heroku.com">ʜᴇʀᴏᴋᴜ</a> 
+➣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]>
 </b>"""
-    SOURCE_TXT = """<b>📢 NOTE:</b>
-<blockquote>ᴛʜɪs ʙᴏᴛ ɪs ɴᴏᴛ ᴀɴ ᴏᴘ3ñ.</blockquote>
-
-🔗 <b>Source Code:</b> <a href="https://github.com/GouthamSER">Click Here 😂</a>
-
-<b>👨‍💻 DEVS:</b>  
-<blockquote><a href="https://t.me/wudixh12">Gᴏᴜᴛʜᴀᴍ Josh ✅</a></blockquote>
-"""
+    SOURCE_TXT = """<b>ɴᴏᴛᴇ:</b>
+<blockquote>- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴀ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ</blockquote>"""
 
     MANUALFILTER_TXT = """<b>❓ Help: Filters</b>
 
@@ -146,7 +134,7 @@ This module only works for my admins.
 📦 Fɪʟᴇ Sɪᴢᴇ: 💾 <code>{file_size}</code>
 
 
-🔗 [⚡ Jᴏɪɴ Eʟᴅᴏʀᴀᴅᴏ ⚡](https://t.me/+53lB8qzQaGFlNDll)</b></blockquote>"""
+🔗 [⚡ Jᴏɪɴ ᴄɪɴᴇᴍᴀ ʟᴏᴋᴀᴍ ⚡](https://t.me/Cinema_Lokam_Movie_Request)</b></blockquote>"""
     
     RESTART_GC_TXT = """
 <b>❖ 𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽!</b
@@ -196,8 +184,7 @@ Take a peek at the instructions below and let’s try again! 👇🏼
 <blockquote>Report To ADMIN - <a href="https://t.me/im_goutham_josh">@im_goutham_josh</a></blockquote>
 """
 
-    RESTART_TXT = """<b><u>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅
-Kuttu Bot ¹ 💓</u></b>"""
+    RESTART_TXT = """<b><u>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅💓</u></b>"""
     DMCA_TXT = """<b><u>This Telegram bot is designed to operate within the guidelines of the Digital Millennium Copyright Act (DMCA) and respects intellectual property rights. We are committed to responding to any valid DMCA takedown notices promptly.</u></b>
 
 <blockquote>Please send your DMCA takedown notice to dmcarexie@proton.me</blockquote>
