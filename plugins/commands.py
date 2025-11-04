@@ -257,8 +257,8 @@ async def start(client, message: Message):
         
         subdel=await client.send_message(
             chat_id=message.from_user.id,
-            text="⚠️ Pʟᴇᴀsᴇ "〄Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ〄 "To Usᴇ Mᴇ !!
-                  Aғᴛᴇʀ Jᴏɪɴᴇᴅ Cʟɪᴄᴋ Oɴ "↻ Tʀʏ Aɢᴀɪɴ "Bᴜᴛᴛᴏɴ Yᴏᴜ Wɪʟʟ Gᴇᴛ Fɪʟᴇ.",
+            text="⚠️ Pʟᴇᴀsᴇ 〄 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 〄 To Usᴇ Mᴇ !!
+                  Aғᴛᴇʀ Jᴏɪɴᴇᴅ Cʟɪᴄᴋ Oɴ ↻ Tʀʏ Aɢᴀɪɴ Bᴜᴛᴛᴏɴ Yᴏᴜ Wɪʟʟ Gᴇᴛ Fɪʟᴇ.",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
         )
