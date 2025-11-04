@@ -14,30 +14,30 @@ class script(object):
 
 <blockquote>📌 Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs:</blockquote>
 
-🔹 /start – Check if I’m alive  
-🔹 /ping – Check bot response time  
-🔹 /usage – How to use the bot  
-🔹 /status – Bot system status  
-🔹 /info – Your user info  
-🔹 /id – Get your Telegram ID  
-🔹 /stats – Database stats  
-🔹 /broadcast – Broadcast message (Owner only)
+✧ /start – Check if I’m alive  
+✧ /ping – Check bot response time  
+✧ /usage – How to use the bot  
+✧ /status – Bot system status  
+✧ /info – Your user info  
+✧ /id – Get your Telegram ID  
+✧ /stats – Database stats  
+✧ /broadcast – Broadcast message (Owner only)
 
 <blockquote>📙 Nᴏᴛɪᴄᴇ:</blockquote>
 ⚠️ Pʟᴇᴀsᴇ ᴅᴏɴ’ᴛ sᴘᴀᴍ ᴛʜᴇ ʙᴏᴛ. 🙂
 """
     ABOUT_TXT = """<b>
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]>
+➸ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Dileep_Autofilterbot">Vᴀʟᴀʏᴀʀ Pᴀʀᴀᴍᴀsɪᴠᴀᴍ</a>
+➻ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href="tg://settings">ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+➸ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/Ascreator_10">ᗩՏᗯᗩᑎTᕼ ♛</a> 
+➻ ʟɪʙʀᴀʀʏ : <a href="https://docs.pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a> 
+➸ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/download/releases/3.0/">ᴘʏᴛʜᴏɴ 3</a> 
+➻ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a> 
+➸ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href="https://heroku.com">ʜᴇʀᴏᴋᴜ</a> 
+➻ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]>
 </b>"""
     SOURCE_TXT = """<b>📢 NOTE:</b>
-<blockquote>ᴋᴜᴛᴛᴜ ʙᴏᴛ™ is an open source project.</blockquote>
+<blockquote>ᴛʜɪs ʙᴏᴛ ɪs ɴᴏᴛ ᴀɴ ᴏᴘ3ñ.</blockquote>
 
 🔗 <b>Source Code:</b> <a href="https://github.com/GouthamSER">Click Here 😂</a>
 
@@ -128,10 +128,10 @@ This module only works for my admins.
 • <code>/broadcast</code> – Broadcast a message to all users.
 """
     STATUS_TXT = """📁 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-👥 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-💬 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-💾 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
-📦 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
+✰ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
+✰ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
+✰ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
+✰ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
 """
     LOG_TEXT_G = """#NewGroup
 👥 Group: {} (<code>{}</code>)
@@ -149,9 +149,7 @@ This module only works for my admins.
 🔗 [⚡ Jᴏɪɴ Eʟᴅᴏʀᴀᴅᴏ ⚡](https://t.me/+53lB8qzQaGFlNDll)</b></blockquote>"""
     
     RESTART_GC_TXT = """
-<b>🔄 𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽!</b>
-Kuttu Bot  
-<a href="https://t.me/im_goutham_josh">@im_goutham_josh</a>
+<b>❖ 𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽!</b
 
 📅 𝖣𝖺𝗍𝖾 : <code>{}</code>  
 ⏰ 𝖳𝗂𝗆𝖾 : <code>{}</code>  
