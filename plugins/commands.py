@@ -181,9 +181,9 @@ async def start(client, message: Message):
     # Group start
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
-            [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-            [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')]
+            [InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Oᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
+            [InlineKeyboardButton('✬ Uᴘᴅᴀᴛᴇs', url=f'https://t.me/Cinema_Updates_OTT')]
+             [InlineKeyboardButton('✫ Gʀᴏᴜᴘ', url=f'https://t.me/Cinema_Lokam_Movie_Request')]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
 
@@ -220,8 +220,10 @@ async def start(client, message: Message):
     if not data:
         buttons = [
             [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-            [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
+            [InlineKeyboardButton('✬ Uᴘᴅᴀᴛᴇs', url=f'https://t.me/Cinema_Updates_OTT')]
+             [InlineKeyboardButton('✫ Gʀᴏᴜᴘ', url=f'https://t.me/Cinema_Lokam_Movie_Request')]
+            [InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+             InlineKeyboardButton('⍟︎ Aʙᴏᴜᴛ', callback_data='about')],
             [InlineKeyboardButton('© Dᴍᴄᴀ', callback_data='dmca')]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -266,8 +268,10 @@ async def start(client, message: Message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-            [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
+            [InlineKeyboardButton('✬ Uᴘᴅᴀᴛᴇs', url=f'https://t.me/Cinema_Updates_OTT')]
+             [InlineKeyboardButton('✫ Gʀᴏᴜᴘ', url=f'https://t.me/Cinema_Lokam_Movie_Request')]
+            [InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+             InlineKeyboardButton('⍟︎ Aʙᴏᴜᴛ', callback_data='about')],
             [InlineKeyboardButton('© Dᴍᴄᴀ', callback_data='dmca')]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
