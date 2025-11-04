@@ -27,12 +27,14 @@ class script(object):
 ⚠️ Pʟᴇᴀsᴇ ᴅᴏɴ’ᴛ sᴘᴀᴍ ᴛʜᴇ ʙᴏᴛ. 🙂
 """
     ABOUT_TXT = """<b>
-<blockquote>🤖 Nᴀᴍᴇ: ᴋᴜᴛᴛᴜ ʙᴏᴛ™</blockquote>
-
-👨‍💻 Cʀᴇᴀᴛᴏʀ: <a href="https://t.me/im_goutham_josh">Goutham SER</a>  
-💬 Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3  
-🗄️ Dᴀᴛᴀʙᴀsᴇ: Mᴏɴɢᴏ DB  
-🌐 Sᴇʀᴠᴇʀ: KᴏYᴇʙ
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
+‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
+‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
+‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
+‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]>
 </b>"""
     SOURCE_TXT = """<b>📢 NOTE:</b>
 <blockquote>ᴋᴜᴛᴛᴜ ʙᴏᴛ™ is an open source project.</blockquote>
