@@ -1,8 +1,5 @@
 import os,logging,random,asyncio,re,json,base64,tgcrypto
-import pytz
-import time
 from Script import script
-from datetime import datetime
 from pyrogram import Client, filters, enums
 from pyrogram.errors import UserNotParticipant, ChatAdminRequired, PeerIdInvalid, FloodWait
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -228,29 +225,17 @@ async def start(client, message: Message):
             [InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
              InlineKeyboardButton('⍟︎ Aʙᴏᴜᴛ', callback_data='about')],
             [InlineKeyboardButton('© Dᴍᴄᴀ', callback_data='dmca')]
-        ]
+            ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        current_time = datetime.now(pytz.timezone(TIMEZONE))
-        curr_time = current_time.hour        
-        if curr_time < 12:
-            gtxt = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 🌞" 
-        elif curr_time < 17:
-            gtxt = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌓" 
-        elif curr_time < 21:
-            gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌘"
-        else:
-            gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 🌑"
-        m=await message.reply_text("⏳")
-        await asyncio.sleep(0.4)
-        await m.delete()        
         await message.reply_photo(
             photo=random.choice(PICS),
-            caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-            )
+        )
         return
-        await asyncio.sleep(1)
+        
+         await asyncio.sleep(1)
         clsnt = await client.send_message(
             chat_id=message.chat.id,
             text="**❗️Send Movie Name and Year Correctly 👍📌**"
@@ -289,24 +274,11 @@ async def start(client, message: Message):
             [InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
              InlineKeyboardButton('⍟︎ Aʙᴏᴜᴛ', callback_data='about')],
             [InlineKeyboardButton('© Dᴍᴄᴀ', callback_data='dmca')]
-        ]
+            ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        current_time = datetime.now(pytz.timezone(TIMEZONE))
-        curr_time = current_time.hour        
-        if curr_time < 12:
-            gtxt = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 🌞" 
-        elif curr_time < 17:
-            gtxt = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌓" 
-        elif curr_time < 21:
-            gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌘"
-        else:
-            gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 🌑"
-        m=await message.reply_text("⏳")
-        await asyncio.sleep(0.4)
-        await m.delete()        
         await message.reply_photo(
             photo=random.choice(PICS),
-            caption=script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
