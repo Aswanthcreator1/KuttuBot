@@ -11,6 +11,9 @@ from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerId
 from utils import get_size, is_subscribed, get_poster, search_gagala, temp, get_settings, save_group_settings, humanbytes
 from database.users_chats_db import db
 from database.ia_filterdb import Media, get_file_details, get_search_results
+import random
+import pytz
+from datetime import datetime, timedelta
 from database.filters_mdb import (
     del_all,
     find_filter,
@@ -21,7 +24,16 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
+tracemalloc.start()
+
+
+TIMEZONE = "Asia/Kolkata"
+BUTTON = {}
 BUTTONS = {}
+FRESH = {}
+BUTTONS0 = {}
+BUTTONS1 = {}
+BUTTONS2 = {}
 SPELL_CHECK = {}
 
 
