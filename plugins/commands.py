@@ -233,9 +233,7 @@ async def start(client, message: Message):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        return
-        
-         await asyncio.sleep(1)
+        await asyncio.sleep(1)
         clsnt = await client.send_message(
             chat_id=message.chat.id,
             text="**❗️Send Movie Name and Year Correctly 👍📌**"
