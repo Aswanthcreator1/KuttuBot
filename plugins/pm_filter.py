@@ -14,6 +14,7 @@ from database.ia_filterdb import Media, get_file_details, get_search_results
 import random
 import pytz
 from datetime import datetime, timedelta
+import tracemalloc
 from database.filters_mdb import (
     del_all,
     find_filter,
