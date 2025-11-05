@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b><u>ഹാ.. അടി അക്കെ...</u>🍭⚡</b>
 
-<b>Hᴇʏ  {}, {}</b>
+<b>Hᴇʏ  {},</b>
 
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ.
 ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!!.</b>
@@ -15,21 +15,7 @@ class script(object):
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ.
 ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!!</b>"""
 
-    HELP_TXT = """
-🙋🏻‍♂️ Hᴇʟʟᴏ {}! 🤓
-
-<blockquote>📌 Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs:</blockquote>
-
-✧ /start – Check if I’m alive  
-✧ /ping – Check bot response time  
-✧ /usage – How to use the bot  
-✧ /status – Bot system status  
-✧ /info – Your user info  
-✧ /id – Get your Telegram ID  
-✧ /stats – Database stats  
-✧ /broadcast – Broadcast message (Owner only)
-
-<blockquote>📙 Nᴏᴛɪᴄᴇ:</blockquote>
+    HELP_TXT = """<blockquote>📙 Nᴏᴛɪᴄᴇ:</blockquote>
 ⚠️ Pʟᴇᴀsᴇ ᴅᴏɴ’ᴛ sᴘᴀᴍ ᴛʜᴇ ʙᴏᴛ. 🙂
 """
     ABOUT_TXT = """<b>
