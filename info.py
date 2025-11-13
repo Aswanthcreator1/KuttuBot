@@ -29,7 +29,7 @@ RESTART_INTERVAL = environ.get("RESTART_INTERVAL", "3d")
 BOT_START_TIME = time()
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/bebadba5a5efdd897afcf-116ed9d0ed07d77c11.jpg https://graph.org/file/f78ca1ac088ad82d9603e-7f61a77f0718fee647.jpg https://graph.org/file/9c20b70bbf7748b4d2bf5-42c4e8dfc41c4b6bce.jpg https://graph.org/file/a0ab8208f845ac067c0b9-16eba84b3f621e06ee.jpg https://graph.org/file/f34fff613f8fcb33db595-51159118500f9923eb.jpg https://graph.org/file/60ce90d7d1eb00c930a17-e2f805f58317b45ee6.jpg https://graph.org/file/66ba07e9fa854e789d430-42ce22f5c7367625e0.jpg https://graph.org/file/10ae47fa931d44dd94ba9-7d98b966b2f66db3f3.jpg https://graph.org/file/a4867d33f15e97c58f74b-0d00faecdcf915fdc4.jpg https://graph.org/file/d2bd13fc11c58df90b6a2-4a46bc6551f5bae65f.jpg https://graph.org/file/9fa57d5b5605ae0ed27f2-22ce1247e9463a5643.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/yvl.jpg')).split()
 
 FILE_CHANNELS = [int(ch) for ch in environ.get('FILE_CHANNELS', '-1003167820589').split()]
 FILE_CHANNEL_SENDING_MODE = is_enabled(environ.get('FILE_CHANNEL_SENDING_MODE', 'False'), False)
@@ -47,8 +47,8 @@ DEFAULT_AUTH_CHANNELS = [int(x) for x in environ.get("AUTH_CHANNEL", "-100168128
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "DB")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kerala_DB:kerala_DB@cluster0.fetyifz.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
 
 # Others
